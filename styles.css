@@ -10,11 +10,11 @@
 .square {
     height: 100%;
     width: 100%;
-    background-color: rgb(29,29,29);
+    background-color: rgb(29, 29, 29);
+    transition: background-color 1s ease; 
 }
 
-.square:hover {
-    background-color: red;
-    transition-duration: 1s;
-	transition-timing-function:ease;
+.square.hovered {
+    background-color: red; /* or rgb(200, 200, 200) */
+    transition-duration: 0s; /* instant on-enter */
 }
